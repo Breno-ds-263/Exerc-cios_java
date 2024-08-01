@@ -1,0 +1,84 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Volta",
+            "request": "launch",
+            "mainClass": "Volta",
+            "projectName": "java_4fedc7a1"
+        },
+        {
+            "type": "java",
+            "name": "ProgramaOrdenacao",
+            "request": "launch",
+            "mainClass": "ProgramaOrdenacao",
+            "projectName": "java_4fedc7a1"
+        },
+        {
+            "type": "java",
+            "name": "Unicode",
+            "request": "launch",
+            "mainClass": "Unicode",
+            "projectName": "java_4fedc7a1"
+        },
+        {
+            "type": "java",
+            "name": "Comparacao",
+            "request": "launch",
+            "mainClass": "Comparacao",
+            "projectName": "java_4fedc7a1"
+        },
+        {
+            "type": "java",
+            "name": "BubleeSort",
+            "request": "launch",
+            "mainClass": "BubleeSort",
+            "projectName": "java_4fedc7a1"
+        },
+        {
+            "type": "java",
+            "name": "Banco",
+            "request": "launch",
+            "mainClass": "Banco",
+            "projectName": "java_4fedc7a1"
+        },
+        {
+            "type": "java",
+            "name": "SelecteSort",
+            "request": "launch",
+            "mainClass": "SelecteSort",
+            "projectName": "java_4fedc7a1"
+        },
+        {
+            "type": "java",
+            "name": "Somar",
+            "request": "launch",
+            "mainClass": "Somar",
+            "projectName": "java_4fedc7a1"
+        },
+        {
+            "type": "java",
+            "name": "Media",
+            "request": "launch",
+            "mainClass": "Media",
+            "projectName": "java_4fedc7a1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Par",
+            "request": "launch",
+            "mainClass": "Par",
+            "projectName": "java_4fedc7a1"
+        }
+    ]
+}
