@@ -6,28 +6,25 @@ Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.*/
 public class SaberSexo {
 
 	public static void main(String[] args) {
-		
-		//Entrada do valor
+
+		// Entrada do valor
 		Scanner input = new Scanner(System.in);
-		
+
 		System.out.println("escrever: F - Feminino, M - Masculino: ");
 		String nome = input.nextLine();
-		
+
 		// logica para verificar se o valor é F ou M
-		switch(nome){
+		switch (nome) {
 		case "F":
-			System.out.println("Feminino"); break;
+			System.out.println("Feminino");
+			break;
 		case "M":
-			System.out.println("Masculino"); break;
+			System.out.println("Masculino");
+			break;
 		default:
-			System.out.println("Sexo inválido"); 
-			
-			
+			System.out.println("Sexo inválido");
+
 		}
-		
-		
-		
-		
 
 	}
 
