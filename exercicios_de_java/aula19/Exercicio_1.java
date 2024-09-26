@@ -17,7 +17,7 @@ public class Exercicio_1 {
 			}
 		
 		for(int i = 0; i < vetorB.length; i++){
-			System.out.println(" valor na posição %d é %d".formatted(i+1, vetorB[i]));
+			System.out.println("vetor B valor na posição %d é %d".formatted(i+1, vetorB[i]));
 			
 			}
 		
