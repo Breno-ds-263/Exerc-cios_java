@@ -1,29 +1,25 @@
-/*Gere e imprima uma matriz M 4x4 com valores aleatórios entre 0-
-9. Após isso determine o maior número da matriz e a sua posição
-(linha, coluna).*/
+/*Gere e imprima uma matriz M 10x10 com valores aleatórios entre
+0-9. Após isso indique qual é o maior e o menor valor da linha 5 e
+qual é o maior e o menor valor da coluna 7.*/
 
 package exercicios_de_java.aula20;
 
-import java.util.Iterator;
 import java.util.Random;
 
-public class Exercicio_01 {
+public class Exercicio_02 {
 
 	public static void main(String[] args) {
-		
-		int [][] matriz = new int [4][4];
-		
+		int [][] matriz = new int [10][10];
+
 		preencherMatriz(matriz);
 		
-		System.out.println("------matriz A-------");
+		System.out.println("-------------------------------matriz-------------------------------");
 		mostrarMatriz(matriz);
 		
 		int maiorNumero = encontrarMaiorNumero(matriz);
 		
 		System.out.println();
 		System.out.println(maiorNumero);
-		
-		
 		
 
 	}
@@ -51,20 +47,18 @@ public class Exercicio_01 {
 	}
 	
 	public static int encontrarMaiorNumero( int [][] matriz) {
-		int maiorNumero = 0;
+		int maiorNumeroLInha7 = 0;
 		
-		for(int i = 0; i < matriz.length; i++ ) {
-			for(int j = 0; j <matriz[i].length; j++) {
-				if(maiorNumero < matriz[i][j]) {
-					maiorNumero = matriz[i][j];
+		
+			for(int j = 0; j <matriz[7].length; j++) {
+				if(maiorNumeroLInha7 < matriz[7][j]) {
+					maiorNumeroLInha7 = matriz[7][j];
 					
 				}
 				
 			}
-			
-		}
 		
-		return maiorNumero;
+		return maiorNumeroLInha7;
 	}
 
 }
