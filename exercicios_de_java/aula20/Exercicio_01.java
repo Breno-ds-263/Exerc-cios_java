@@ -18,13 +18,7 @@ public class Exercicio_01 {
 		System.out.println("------matriz A-------");
 		mostrarMatriz(matriz);
 		
-		int maiorNumero = encontrarMaiorNumero(matriz);
-		
-		System.out.println();
-		System.out.println(maiorNumero);
-		
-		
-		
+		 encontrarMaiorNumero(matriz);	
 
 	}
 	
@@ -33,7 +27,7 @@ public class Exercicio_01 {
 		
 		for(int i = 0; i< Matriz.length; i++) {
 		   for(int j = 0; j<Matriz[i].length;j++) {
-			   Matriz[i][j] = radom.nextInt(100);
+			   Matriz[i][j] = radom.nextInt(9);
 			   
 		   }
 			}
@@ -50,21 +44,24 @@ public class Exercicio_01 {
 		}
 	}
 	
-	public static int encontrarMaiorNumero( int [][] matriz) {
+	public static void  encontrarMaiorNumero( int [][] matriz) {
 		int maiorNumero = 0;
+		int linha= 0;
+		int coluna = 0;
 		
 		for(int i = 0; i < matriz.length; i++ ) {
 			for(int j = 0; j <matriz[i].length; j++) {
 				if(maiorNumero < matriz[i][j]) {
 					maiorNumero = matriz[i][j];
+					linha = i;
+					coluna =j;
 					
 				}
 				
 			}
 			
 		}
-		
-		return maiorNumero;
+		System.out.printf("maior número do vetor = %d, coluna = %d, linha = %d", maiorNumero, linha,coluna);
 	}
 
 }

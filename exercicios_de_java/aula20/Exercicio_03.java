@@ -24,6 +24,30 @@ public class Exercicio_03 {
        
        System.out.println("---------Matriz----------");
        mostrarMatriz(matriz);
+       
+       
+       System.out.println();
+       System.out.println("Valores pares da matriz");
+       for (int i = 0; i < matriz.length; i++) {
+    	   for (int j = 0; j < matriz[i].length; j++) {
+    		   if(matriz[i][j] % 2 ==0) {
+    			   System.out.printf(matriz[i][j] + "\t");
+    		   }
+			
+		}
+		
+	}
+       System.out.println();
+       System.out.println("Valores impares da matriz");
+       for (int i = 0; i < matriz.length; i++) {
+    	   for (int j = 0; j < matriz[i].length; j++) {
+    		   if(matriz[i][j] % 2 != 0) {
+    			   System.out.printf(matriz[i][j] + "\t");
+    		   }
+			
+		}
+		
+	}
 	}
 	
 	public static void mostrarMatriz(int [] [] matriz) {
