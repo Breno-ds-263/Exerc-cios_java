@@ -11,7 +11,12 @@ public class Lampada {
 	private boolean tipoAbajur;
 	private boolean estado;
 	
-	Lampada(){}
+	public Lampada(){}
+	
+	public Lampada(String modelo, String tensao){
+		this.modelo = modelo;
+		this.tensao = tensao;
+	}
 	
 	
 	public Lampada(String modelo, String tensao, int potencia, String cor, String tipoLuz, int garantiaMeses,
