@@ -49,19 +49,19 @@ public class Agenda {
 		
 		
 		for (int i = 0; i < contato.length; i++) {
-			System.out.printf("Insira o contato %d: ", i+1);
+			System.out.println("Insira o contato %d ".formatted( i+1));
 			
-			System.out.println("insira o nome: ");
+			System.out.print("insira o nome: ");
 			String nome = input.nextLine();
 			contato[i].setNome(nome);
 			
-			System.out.println("insira o Telefone: ");
+			System.out.print("insira o Telefone: ");
 			String telefone = input.nextLine();
 			contato[i].setTelefone(telefone);
 			
-			System.out.println("insira o email: ");
+			System.out.print("insira o email: ");
 			String email = input.nextLine();
-			contato[i].setEmail(nome);
+			contato[i].setEmail(email);
 			
 		}
 	}
